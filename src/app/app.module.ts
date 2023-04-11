@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ChildComponent } from './child/child.component';
-import { ParentComponent } from './parent/parent.component';
+import { ParentComponent } from './componets/parent/parent.component';
+import { ChildComponent } from './componets/child/child.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
