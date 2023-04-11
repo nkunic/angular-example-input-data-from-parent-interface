@@ -1,8 +1,9 @@
 .item {
-  padding: 0.5rem;
-  border-width: 1px;
-  border-style: solid;
+color: black;
+  &:not(.item--disabled) {
+    color: black;
+  }
   &.item--disabled {
-    border-color: red;
+    color: red;
   }
 }
